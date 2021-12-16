@@ -10,11 +10,11 @@ pyautogui.write(["t","left","a","enter"])
 pyautogui.sleep(1)
 pyautogui.write(["printscreen"])
 
+# # 단축키 첫번째 방법
 # pyautogui.keyDown("ctrlleft")
-# pyautogui.press("v")
+# pyautogui.keyDown("v")
+# pyautogui.keyUp("v")
 # pyautogui.keyUp("ctrlleft")
-pyautogui.sleep(1)
-pyautogui.keyDown("ctrlleft")
-pyautogui.keyDown("v")
-pyautogui.keyUp("v")
-pyautogui.keyUp("ctrlleft")
+
+# 단축키 두번째 방법
+pyautogui.hotkey('ctrlleft', 'v')
