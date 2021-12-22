@@ -8,10 +8,10 @@ driver.get("https://www.google.co.kr/imghp?hl=ko&tab=ri&ogbl")
 driver.find_element_by_xpath('//*[@id="sbtc"]/div[2]/div[3]/div[2]').click()
 
 # '이미지 업로드 중' 클릭
-driver.find_element_by_xpath('/html/body/div[1]/div[3]/div/div[2]/form/div[1]/div/a').click()
+driver.find_element_by_xpath('//*[@id="dRSWfb"]/div/a').click()
 
 # 파일 선택 클릭
-driver.find_element_by_xpath('/html/body/div[1]/div[3]/div/div[2]/form/div[2]/div[2]/input').click()
+driver.find_element_by_xpath('//*[@id="awyMjb"]').click()
 time.sleep(1)
 
 # 내 컴퓨터 파일구조에 어떻게 접근?
